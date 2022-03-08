@@ -11,7 +11,7 @@
 /*=============================================
 =            Global text colors               =
 =============================================*/
-$body-text-color: var(--dse-body-text-color, $dark) !default;
+$body-text-color: var(--dse-body-text-color, $dark) !default;  // first define the variable, second set $dark as a default in case yiu use only css and define as a !default for a scss so if a developer define the body-text-color it will override this value
 $body-bg-color: var(--dse-body-bg-color, $white) !default;
 
 /*=============================================
